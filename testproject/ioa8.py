@@ -32,7 +32,7 @@ try:
     elif op.get_attribute("value") == "*":
         number = int(number1) * int(number2)
 
-    # A pythonban számolt eredményt összehasonlítom a weboldalon kalkulált eredménnyel
+    # A pythonban számolt eredményt összehasonlítom a weboldalon kalkulált eredménnyel.
 
     assert number == result.get_attribute("value")
 
